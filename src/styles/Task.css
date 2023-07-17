@@ -1,0 +1,26 @@
+.task{
+    display: flex;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    align-items: center;
+}
+.task > div{
+    width: 100%;
+}
+.task span{
+    color: rgba(0, 0, 0, 0.464);
+}
+.task button{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task button:hover{
+    background-color: aqua;
+}
